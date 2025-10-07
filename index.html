@@ -1,1 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CINEMATIC — Visual Storytelling Studio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
 
+    <!-- HERO -->
+    <section class="hero">
+      <video autoplay muted loop class="hero__video">
+        <source src="https://cdn.pixabay.com/vimeo/828489051/production-15636.mp4?width=1280&hash=f23a78a0f6e89cbe03d7f788b8a8d8017d0e2b37" type="video/mp4">
+      </video>
+      <div class="hero__overlay"></div>
+      <div class="hero__content">
+        <h1 class="hero__title">Every Frame Tells a Story</h1>
+        <p class="hero__subtitle">CINEMATIC — студия визуального сторителлинга</p>
+        <a href="#projects" class="btn btn--accent">Watch Showreel</a>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about">
+      <div class="container">
+        <h2 class="section__title">О нас</h2>
+        <p class="section__text">
+          Мы создаем видео, которые вдохновляют. CINEMATIC объединяет режиссёров, операторов и монтажёров, чтобы превращать идеи в визуальные истории.
+        </p>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services">
+      <div class="container">
+        <h2 class="section__title">Наши услуги</h2>
+        <ul class="services__list">
+          <li class="services__item">Рекламные ролики</li>
+          <li class="services__item">Музыкальные клипы</li>
+          <li class="services__item">Бренд-видео</li>
+          <li class="services__item">Монтаж и постпродакшн</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="projects" id="projects">
+      <div class="container">
+        <h2 class="section__title">Наши работы</h2>
+        <div class="projects__grid">
+          <div class="project">
+            <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=1000&q=80" alt="Project 1">
+            <div class="overlay">Play</div>
+          </div>
+          <div class="project">
+            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1000&q=80" alt="Project 2">
+            <div class="overlay">Play</div>
+          </div>
+          <div class="project">
+            <img src="https://images.unsplash.com/photo-1600585153810-8e8a8e34c243?auto=format&fit=crop&w=1000&q=80" alt="Project 3">
+            <div class="overlay">Play</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact">
+      <div class="container">
+        <h2 class="section__title">Связаться с нами</h2>
+        <form class="contact__form">
+          <input type="text" placeholder="Ваше имя" required>
+          <input type="email" placeholder="Email" required>
+          <textarea placeholder="Сообщение"></textarea>
+          <button type="submit" class="btn btn--accent">Отправить</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <p>© 2025 CINEMATIC Studio — Every Frame Tells a Story</p>
+    </footer>
+
+  </div>
+</body>
+</html>
